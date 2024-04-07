@@ -1,4 +1,4 @@
-Flask @ file:///C:/b/abs_efc024w7fv/croot/flask_1702980041157/work
+Flask 
 numpy
 pandas==2.2.1
-scikit-learn @ file:///C:/b/abs_38k7ridbgr/croot/scikit-learn_1684954723009/work
+scikit-learn 
