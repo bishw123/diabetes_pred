@@ -11,7 +11,7 @@ def index():
 @app.route('/predict')
 def predict():
     
-    load_model = pickle.load(open(r"C:\Users\agraw\Documents\bishwa programs jupyter\GIT&FLASK&AWS\SHRI\L1\model_diabetes.pkl", 'rb'))
+    load_model = pickle.load(open(r"model_diabetes.pkl", 'rb'))
 
     Pregnancies=3
     Glucose=235
@@ -52,4 +52,4 @@ def get_data():
 
 
 if __name__=="__main__":
-    app.run(debug=True)
+    app.run(debug=False, host='0.0.0.0',post=8080)
